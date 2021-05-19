@@ -1,0 +1,51 @@
+body {
+    color:brown;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+
+.fixed-header, .fixed-bottom {
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+}
+
+.fixed-header {
+    top: 5;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav a {
+    color: aquamarine;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.flex-container {
+    position: relative;
+    text-align: center;
+    color: crimson;
+    display: flex;
+    width: 640px;
+    height: 340px;
+    
+}
+
+.below {
+    position: absolute;
+    font-size: large;
+    color: crimson;
+    font-style: oblique;
+
+}
